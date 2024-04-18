@@ -24,20 +24,20 @@ default_mapping_txt = """
 # Stick to the syntax:
 #<number>:<application>
 # Here, number is the index
-0: master
-1: system
-2: chrome.exe
-3: spotify.exe
-4: unmapped
+0: spotify.exe
+1: device: SS-Gaming
+2: device: SS-Chat
+3: device: SS-Media
+4: device: SS-Aux
 
 # Find the device name when the sliders are connected to USB in Device Manager, so that when you switch USB ports,
 # you don't have to change the COM port.
-device name: Arduino Micro
+device name: Arduino Nano
 
 # Indicate the number of sliders you're using:
 sliders: 5
 # Port is only used if the device name can't be found automatically.
-port:COM7
+port:COM3
 
 # Make sure this matches the baudrate on the Arduino's Serial.begin() call.
 baudrate:9600

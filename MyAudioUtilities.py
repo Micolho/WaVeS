@@ -1,10 +1,10 @@
 from pycaw.pycaw import AudioUtilities
 import comtypes
 from comtypes import CLSCTX_ALL
+from pycaw.constants import CLSID_MMDeviceEnumerator
 from pycaw.pycaw import (
     AudioUtilities,
     IAudioEndpointVolume,
-    CLSID_MMDeviceEnumerator,
     IMMDeviceEnumerator,
     EDataFlow,
     ERole,
